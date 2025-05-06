@@ -14,10 +14,17 @@ body {
 
 header, header a {
     background-color: #003366;
+    border-radius: 8px;
+    display: block;
     color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+header a:hover {
+    background-color: #014991;
 }
 
 header h1 {
