@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+h3 {
+    margin-top: 20px;
+}
+
+#colorProperty p {
+    color:red;
+}
+
+#bgColorProperty {
+    background-color: burlywood;
+}
+
+#bgColorProperty {
+    color: black;
+}
+
+#bgImgProperty {
+    /* background-image: url(../img/space-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black; 
+    
+    Is the same below but with in one line
+    */
+    background-size: cover;
+    background: black url(../img/space-background.jpg) no-repeat center;
+    color: white;
+    
+}
+
+#borderProperty {
+    border-style: dashed;
+    border-color: cyan;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+#marginProperty {
+    margin-left: 25px;
+}
+
+#paddingProperty {
+    padding-left: 50px;
+}
+
+#sizeProperty {
+    width: 200px;
+    height: auto;
+}
+
+#textRtl {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#textLtr {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+#textAlign {
+    text-align: center;
+}
+
+#textDecoration {
+    text-decoration: underline;
+}
+
+#textTransformation1 {
+    text-transform: capitalize;
+}
+
+#textTransformation2 {
+    text-transform: lowercase;
+}
+
+#textTransformation3 {
+    text-transform: uppercase;
+}
+
+#textIdent {
+    text-indent: 50px;
+}
+
+#textSpace {
+    letter-spacing: 5px;
+}
+
+#textHeight {
+    line-height: 1px;
+}
+
+#textWordSpace {
+    word-spacing: 15px;
+}
+
+#fontProperty {
+    font-family: "Winky Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.button1 {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+}
+
+a.button1:hover {
+    background-color: rgb(1, 201, 1);
+    padding: 7px;
+    transition: 0.3s ease;
+}
+
+a.button2 {
+    border: 1px solid black;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+a.button2:hover {
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+
+a.button3 {
+    border: none;
+    transition: 0.3s ease;
+}
+
+a.button3:hover {
+    border-bottom: 5px solid grey;
+}
+
+a.button4 {
+    border: none;
+    transition: 0.3s ease;
+}
+
+a.button4:hover {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.button5 {
+    cursor: help;
+}
+
+a.button5:hover {
+    font-weight: bold;
+}
+
+a.button {
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a.button:hover {
+    padding: 7px;
+    border: 2px solid;
+}
+
+a.blue {
+    background-color: #003366;
+    color: white;
+}
+
+a.white {
+    background-color: white;
+    color: black;
+}
+
+a.block {
+    display: block;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a.block:hover {
+    padding: 10px;
+    border: 5px solid;
+}
+#maxWidthProperty {
+    max-width: 800px;
+}
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    background-color: #333;
+    position: relative;
+    color: white;
+}
+
+.content {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div1 {
+    background-color: red;
+    position: relative;
+    left: 50px;
+}
+
+.div2 {
+    background-color: green;
+    position: relative;
+}
+
+.div3 {
+    background-color: blue;
+}
+
+.div4 {
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.div5 {
+    background-color: coral;
+    position: sticky;
+    bottom: 0%;
+}
+
+#overflowProperty {
+    height: 200px;
+    overflow: auto;
+}
+
+.containerBox {
+    overflow: auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 20px;
+    border-radius: 10px;
+}
+
+.imgLeft, .imgRight {
+    width: 300px;
+    border: 2px solid grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imgLeft {
+    float: left;
+}
+
+.imgRight {
+    float: right;
+}
+
+.contentLeft {
+    clear: right;
+}
+
+.contentRight {
+    clear: left;
+}
+
+.opacityBox {
+    text-indent: 0;
+    display: inline-block;
+    background-color: #003366;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.visible1:hover {
+    opacity: 0.7;
+}
+
+.visible2:hover {
+    opacity: 0.4;
+}
+
+.invisible:hover {
+    opacity: 0;
+}
+
+.visible3:hover {
+    opacity: 0.1;
+}
+
+ul {
+    background-color: brown;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a, .dropButton {
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropButton {
+    border-bottom: 5px solid white;
+}
+
+li a:hover, .dropdown:hover .dropButton {
+    background-color: white;
+    color: black;
+    border-bottom: 5px solid white;
+}
+
+.dropdown:hover .dropButton {
+    border-bottom: 5px solid brown;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdownContent {
+    position: absolute;
+    width: 150px;
+    display: none;
+}
+
+.dropdownContent a {
+    color: white;
+    background-color: brown;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.specificity p {
+    color: red;
+}
+
+#priority {
+    color: green;
+}
+
+.specificity .priority {
+    color: blue;
+}
+
+.specificity .class {
+    color: #794e00;
+}
+
+.important {
+    color: orange !important;
+}
