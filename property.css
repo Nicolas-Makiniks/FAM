@@ -25,7 +25,7 @@ h3 {
     Is the same below but with in one line
     */
     background-size: cover;
-    background: black url(../img/space-background.jpg) no-repeat center;
+    background: black url(img/space-background.jpg) no-repeat center;
     color: white;
     
 }
